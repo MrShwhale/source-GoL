@@ -7,6 +7,8 @@ Unzip the release (or download the source code), and place the 'life' folder int
 ## Running
 Open the console in the game and type the command 'exec life/life'. This should display some text on how to use the program, and display the grid with a glider on it. Read that text to get started. Use the 'help_life' command if you need to see it again. The text is also provided below.
 
+I have had issues with running the program while in a game, even with sv_allow_wait_command 1, due to the very high volume of commands sent. Because of this, I suggest running the file from the title screen.
+
 ### Help text
 
     This is a version of Conway's game of life in the TF2 console. This version is a 13x13 grid that wraps around, due to hardware constraints.
